@@ -1,0 +1,211 @@
+/* Top Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 80px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header a:hover {
+    color: #00f2ff;
+  }
+  
+  /* Media Queries for Specific Devices */
+  
+  /* iPhone 5/5S/5C/SE */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* iPhone 6/6S/7/8 */
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* iPhone 6+/6S+/7+/8+ */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* iPhone X */
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* Samsung Galaxy S3 */
+  @media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 2) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* Samsung Galaxy S4, S5, Note 3 */
+  @media screen
+    and (device-width: 320px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 3) {
+  
+    /* Add your custom styles here */
+  
+  }
+  
+  /* Samsung Galaxy S6 */
+  @media screen
+    and (device-width: 360px)
+    and (device-height: 640px)
+    and (-webkit-device-pixel-ratio: 4) {
+  
+    /* Add your custom styles here */
+  
+  }
+
+    /* Samsung Galaxy S7 */
+    @media screen
+    and (device-width: 380px)
+    and (device-height: 660px)
+    and (-webkit-device-pixel-ratio: 4) {
+  
+    /* Add your custom styles here */
+  
+  }
+
+      /* Samsung Galaxy S10 */
+      @media screen
+      and (device-width: 400px)
+      and (device-height: 700px)
+      and (-webkit-device-pixel-ratio: 4) {
+    
+      /* Add your custom styles here */
+    
+    }
+
+
+      /* macbook */
+      @media screen
+      and (device-width: 2560px)
+      and (device-height: 1600px)
+       {
+    
+      /* Add your custom styles here */
+    
+    }
+
+          /* Laptop */
+          @media screen
+          and (device-width: 1280px)
+          and (device-height: 720px)
+           {
+        
+          /* Add your custom styles here */
+        
+        }
+
+           /* Desktop */
+           @media screen
+           and (device-width: 1920px)
+           and (device-height: 1080px)
+            {
+         
+           /* Add your custom styles here */
+         
+         }
+  
+              /* Desktop */
+              @media screen
+              and (device-width: 1366px)
+              and (device-height: 768px)
+               {
+            
+              /* Add your custom styles here */
+            
+            }
+
+               /* Desktop */
+               @media screen
+               and (device-width: 1280px)
+               and (device-height: 1024px)
+                {
+             
+               /* Add your custom styles here */
+             
+             }
+
+                /* Desktop */
+                @media screen
+                and (device-width: 3840px)
+                and (device-height: 2160px)
+                 {
+              
+                /* Add your custom styles here */
+              
+              }
+              
+
+ 
